@@ -87,7 +87,7 @@ function Login() {
       <p className='text-red-600 font-bold text-lg py-4'>{errorMsg}</p>
       <button onClick={handleButtonClick} className='p-4 my-6 w-full bg-red-700 rounded-xl'>{ isSignInForm? "Sign In" : "Sign Up"}</button>
       <p className='py-4 font-bold cursor-pointer' onClick={toggleSignInForm}>
-        { isSignInForm? "New to Netflix?Sign up now" : "Already Registered?Sign In now"}
+        { isSignInForm? "New to movieGPT ? Sign up now" : "Already Registered?Sign In now"}
         </p>
 
 

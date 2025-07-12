@@ -17,3 +17,14 @@ export const LOGO =
 
 
 export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
+
+export const SUPPORTED_LANGUAGES = [
+  { identifier: "en", name: "English" },
+  { identifier: "hindi", name: "Hindi" },
+  { identifier: "spanish", name: "Spanish" },
+  { identifier: "bengali", name: "Bengali" },
+  { identifier: "tamil", name: "Tamil" },
+  { identifier: "telegu", name: "Telegu" },
+  { identifier: "marathi", name: "Marathi" },
+  { identifier: "gujrati", name: "Gujrati" },
+];
